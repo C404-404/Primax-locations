@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -22,3 +23,36 @@
   
   <script src="excel-loader-file.js"></script> 
 </html>
+=======
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Primax Stations</title>
+</head>
+
+<body>
+  <form id="formPrimax">
+    Longitud de la carretera: <input type="number" id="roadLength" />
+    Cantidad de estaciones: <input type="number" id="gasStations" />
+    <button type="submit" id="button">Calcular</button>
+  </form>
+</body>
+<script src="primax.js"></script>
+
+<script src="https://unpkg.com/chai/chai.js"></script>
+<script src="https://unpkg.com/mocha/mocha.js"></script>
+
+<script src="test.js">
+  mocha.setup('bdd');
+  expect = chai.expect;
+</script>
+
+<div id="mocha"></div>
+<script class="mocha-exec">
+  mocha.run();
+</script>
+
+</html>
+>>>>>>> 603f2754cf1bd9085eced8b2e524f7abfa06a4cb
